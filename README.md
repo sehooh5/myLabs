@@ -24,14 +24,24 @@
 #### on-premise
 
 - 클라우드를 사용하는 것이 아닌 기업 내부에서 서버를 직접 관리하고 운용
+- 반대 개념이 클라우드
 
 
 
 #### CI/CD
 
-- CI : Continuous Integration / 지속적인 통합
+- **CI** : Continuous Integration / 지속적인 통합
   - 애플리케이션에서 신규코드 변경 사항이 정기적으로 빌드 및 테스트가 되고, 이를 공유 레포지토리에 통합하는 것을 의미 (동기화와 비슷한 방식)
   - 필요 조건
-    - MSA (Micro Service Archietecture) : 아키텍처 모델로서 작은 기능으로 서비스를 잘게 쪼개어서 개발하는 형태로 아키텍처에서 특정기능만을 따로 배포할 수 있다는 장점이 있다
+    - MSA (Micro Service Archietecture) : 아키텍처 모델로서 작은 기능으로 서비스를 잘게 쪼개어서 개발하는 형태로 아키텍처에서 특정기능만을 따로 배포할 수 있다는  장점이 있다
     - Agile : 소규모 기능 단위로 빠르게 개발하고 적용을 반복하는 개발 방법
     - 형상관리 툴 :  Git, SVN 등
+- **CD** : Continuous Delivery or Deployment / 지속적 서비스 제공 또는 배포
+  - Continuous Delivery : 공유 레포지토리 자동 배포
+  - Continuous Deployment : Production 레벨까지 자동 배포
+- CI 가 새로운 소스코드의 빌드, 테스트, 병합을 의미하면 CD 는 Repository ~ Production  환경까지 배포되는 것
+
+
+
+
+
