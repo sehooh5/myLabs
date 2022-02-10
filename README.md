@@ -72,4 +72,4 @@
 ### K8S study
 
 - Kubernetes up&Running 책으로 진행
-- 
+- 기본적인 내용파악하는데 도움
