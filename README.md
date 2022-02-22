@@ -89,3 +89,9 @@
 - 토익
 - 재테크 책
 
+
+
+#### 0222
+
+- kubernetes up&running
+- node.js 프로그래밍
