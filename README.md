@@ -88,3 +88,11 @@
 
 - kubernetes up&running
 - node.js 프로그래밍
+
+
+
+#### 0303
+
+- setting up system
+- 네트워크 아직 설치 안됨
+
