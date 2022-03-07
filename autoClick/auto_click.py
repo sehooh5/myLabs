@@ -53,8 +53,11 @@ def auto_click():
         element = driver.find_element_by_xpath(
             '//*[@id="yj_lottery_btn_open"]')
         element.click()
+
+
     except NoSuchElementException:
         print("Btn1 Not Found")
+
     driver.implicitly_wait(random_sec())
     driver.refresh()
     driver.implicitly_wait(random_sec())
