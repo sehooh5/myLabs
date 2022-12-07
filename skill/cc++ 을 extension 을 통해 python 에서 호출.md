@@ -6,8 +6,6 @@
 
 
 
-
-
 ### 방법
 
 ---
@@ -162,5 +160,12 @@ getarea.restype = ctypes.c_int
 r = Rect(0, 0, 5, 10)
 res = getarea(r)
 print(res)
+
+
+# 결과 값 #
+# 3
+# 1.0
+# 55
+# 50
 ```
 
