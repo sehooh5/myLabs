@@ -1,7 +1,6 @@
 // file : c_module_main.cpp
 
 #define EXPORT                       // 리눅스의 경우 별다른 지정자가 필요치 않다
-#endif
 
 #include <vector>
 #include <numeric>
