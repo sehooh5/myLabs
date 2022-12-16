@@ -3,6 +3,9 @@
 - 파이썬에서 C/C++ 모듈를 사용하는 방법
 - [예제 블로그 1](https://kukuta.tistory.com/374)
 - [예제 블로그 2](https://doitnow-man.tistory.com/57)
+- [*예제 블로그 3](https://bibliotheque.tistory.com/25) - 이거로 진행함
+  - struct_c_to_py.cpp
+  - struct_c_to_py.py
 
 
 

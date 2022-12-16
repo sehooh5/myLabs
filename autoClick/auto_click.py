@@ -58,6 +58,7 @@ def auto_click():
     except NoSuchElementException:
         print("Btn1 Not Found")
 
+
     driver.implicitly_wait(random_sec())
     driver.refresh()
     driver.implicitly_wait(random_sec())
